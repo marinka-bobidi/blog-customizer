@@ -11,7 +11,15 @@
 .container_open {
 	transform: translate(0);
 }
+.overlay {
+	position: fixed;
+	inset: 0;
+	visibility: hidden;
+}
 
+.overlay_open {
+	visibility: visible;
+}
 .form {
 	display: flex;
 	flex-shrink: 0;
@@ -21,6 +29,7 @@
 	height: auto;
 	min-height: 100%;
 	padding: 50px 31px;
+	row-gap: 50px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
 }
